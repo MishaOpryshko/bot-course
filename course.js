@@ -1,4 +1,6 @@
-const TelegramBot = require('node-telegram-bot-api');
+import fetch from 'node-fetch';
+import TelegramBot from 'node-telegram-bot-api';
+
 const token = '6351824670:AAGGecnp50Eq8186NmU2_vaU8LIrE2KnfaI';
 const bot = new TelegramBot(token, { polling: true });
 const photos = [
